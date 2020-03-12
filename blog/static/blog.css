@@ -1,11 +1,11 @@
-h1 a, h2 a{
+h1 a, h2 a {
     color: #C25101;
     font-family: 'Lobster';
 }
-body{
-    padding-left: 15px;
-}
 
+body {
+    padding-left: px;
+}
 .page-header {
     background-color: #C25100;
     margin-top: 0;
