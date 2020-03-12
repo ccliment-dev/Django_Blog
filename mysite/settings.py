@@ -25,7 +25,7 @@ SECRET_KEY = '4zbb=t2qa6lb6%3!r^-6p2tag1n0!)wdzxjfi75^+3d=mgiuwo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com', 'ccliment.pythonanywhere.com']
 
 
 # Application definition
