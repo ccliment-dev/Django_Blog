@@ -1,11 +1,18 @@
 <html>
-<head>
-    <title>It's Carlos Blog</title>
-</head>
-<body>
-    <h1>This thing is pretty big Wow</h1>
-   <a href="twitch/tv/Menostrece">Why don't you donate some cash so we go further beyond!?</a>
-    <p>Hi there!</p>
-    <p>It Works mate!</p>
-</body>
+    <head>
+        <title>Django Girls blog</title>
+    </head>
+    <body>
+       <div>
+    <h1><a href="/">Django Girls Blog</a></h1>
+</div>
+
+{% for post in posts %}
+    <div>
+        <p>published: {{ post.published_date }}</p>
+        <h2><a href="">{{ post.title }}</a></h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
+    </body>
 </html>
