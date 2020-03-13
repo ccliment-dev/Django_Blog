@@ -1,7 +1,15 @@
 *.pyc
 *~
 /.vscode
+<<<<<<< HEAD
 __pychache__
 myvenv
 db.mysqlite3
 /static
+=======
+__pycache__
+myvenv
+db.mysqlite3
+/static
+.DS_Store
+>>>>>>> 0349102f480db19c717b3942a32f762b31a87ff6
