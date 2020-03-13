@@ -1,0 +1,7 @@
+*.pyc
+*~
+/.vscode
+__pychache__
+myvenv
+db.mysqlite3
+/static
